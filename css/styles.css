@@ -51,6 +51,11 @@ label {
     text-align: center;
 }
 
+/* remove input border when typing */
+.number-collected:focus {
+    outline:none; 
+}
+
 /* para quitar las flechas de arriba y abajo del input de escribir número */
 .number-collected::-webkit-inner-spin-button, .number-collected::-webkit-outer-spin-button {
         -webkit-appearance: none;
