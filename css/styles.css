@@ -1,0 +1,108 @@
+
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 70px; 
+    text-align: center;
+    border-color: 10px solid black;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-image: url('/images/water.jpg');
+    background-size: auto;
+}
+
+h1 {
+    /* color: rgb(125, 137, 170);  */
+    color: white; 
+    font-size: 45px;
+    margin-bottom: 10px; 
+}
+
+label {
+    font-size: 25px; 
+    margin-bottom: 17px;
+    color: rgb(86, 84, 84); 
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    border: 0.7px solid rgb(196, 195, 195); 
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px rgb(217, 210, 217);
+    margin: 30px 0 10px 0; 
+    padding: 20px 20px 30px 20px; 
+}
+
+.number-collected {
+    background-color: rgb(241, 221, 241);
+    border: none; 
+    margin-bottom: 5px;
+    font-size: 15px; 
+    padding: 8px 0; 
+    width: 300px; 
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* para quitar las flechas de arriba y abajo del input de escribir número */
+.number-collected::-webkit-inner-spin-button, .number-collected::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+}
+
+.submit {
+    width: 300px; 
+    padding: 8px 0; 
+    margin-top: 4px; 
+    font-size: 15px; 
+    cursor: pointer; 
+    border: 0.5px solid rgb(125, 122, 127);
+    border-radius: 5px;
+    background-color: rgb(247, 245, 248);
+}
+
+.message-clue {
+    margin: 4px 0; 
+    margin-top: 15px; 
+}
+
+.message-clue, .print-number-attempts {
+    width: 300px; 
+    border: 0px solid transparent;
+    text-align: center;
+    /* color: rgb(152, 150, 150);  */
+    font-size: 15px; 
+    color: black; 
+    background-color: transparent;
+}
+
+.message-clue::placeholder, .print-number-attempts::placeholder {
+    color: rgb(92, 91, 91); 
+    background-color: transparent;
+}
+
+
+
+
+.button {
+    background-color: rgb(219, 231, 241);
+    border: none; 
+    border-radius: 30px;
+    margin-top: 18px; 
+    padding: 15px 30px;
+    cursor: pointer; 
+    font-size: 15px;
+    color: rgb(78, 76, 76); 
+}
+
+.button:hover {
+    /* border: 1px solid rgb(180, 181, 182);  */
+    /* background-color: rgb(173, 209, 221); */
+    transform: scale(1.05); 
+}
